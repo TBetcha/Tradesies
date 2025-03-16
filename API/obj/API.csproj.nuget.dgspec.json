@@ -20,9 +20,7 @@
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/Divisions-Maintenance-Group/index.json": {},
-          "https://nuget.pkg.github.com/divisionsinc/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -45,6 +43,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[5.0.0-beta-49, )"
+            },
+            "Marten": {
+              "target": "Package",
+              "version": "[8.0.0-alpha-3, )"
+            },
+            "NodaTime": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Npgsql.NodaTime": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
